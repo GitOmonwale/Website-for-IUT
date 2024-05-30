@@ -16,149 +16,167 @@
 </head>
 
 <body class="bg-[#EAEAEA] max-w-full min-h-screen">
-<section class="relative ">
+  <section class="relative ">
 
-  <div id="default-carousel" class="relative w-full" data-carousel="slide">
-    <!-- Carousel wrapper -->
-    <div class="relative overflow-hidden rounded-lg h-[600px]">
-         <!-- Item 1 -->
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative overflow-hidden rounded-lg h-[600px]">
+        <!-- Item 1 -->
         <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-          <header class="bg-[url('../assets/header.jpg')] bg-cover bg-top h-[600px] absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+          <header
+            class="bg-[url('../assets/header.jpg')] bg-cover bg-top h-[600px] absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
           </header>
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-          <header class="bg-[url('../assets/header2.jpg')] bg-cover bg-center h-[600px] absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+          <header
+            class="bg-[url('../assets/header2.jpg')] bg-cover bg-center h-[600px] absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
           </header>
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-          <header class="bg-[url('../assets/header3.jpg')] bg-cover bg-top h-[600px] absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-             
+          <header
+            class="bg-[url('../assets/header3.jpg')] bg-cover bg-top h-[600px] absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+
           </header>
         </div>
- 
-    </div>
-    <!-- Slider indicators -->
-    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-    </div>
-    <!-- Slider controls -->
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span class="sr-only">Next</span>
-        </span>
-    </button>
-</div>
 
-<div class="h-[600px] bg-opacity-45 text-white bg-black absolute top-0 left-0 right-0 z-50">
-  <nav class=" flex justify-between items-center py-1 px-10">
-    <img src="../assets/logo_iut.png" width="100px" height="70px" alt="">
-    <ul class="flex justify-between items-center text-white p-5">
-      <li><a href="index.html" class=" py-1 px-3 rounded-sm transition duration-200">Accueil</a></li>
-      <li>
-        <button id="dropdownHoverButton1" data-dropdown-toggle="dropdownHover1" data-dropdown-trigger="hover"
-          class="text-white focus:ring-4 focus:outline-none focus:ring-blue-300 px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          type="button">Gouvernance<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+      </div>
+      <!-- Slider indicators -->
+      <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+          data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+          data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+          data-carousel-slide-to="2"></button>
+      </div>
+      <!-- Slider controls -->
+      <button type="button"
+        class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        data-carousel-prev>
+        <span
+          class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="m1 1 4 4 4-4" />
+              d="M5 1 1 5l4 4" />
           </svg>
-        </button>
-
-        <!-- Dropdown menu -->
-        <div id="dropdownHover1"
-          class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-          <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton1">
-            <li>
-              <a href="./a-propos.html"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mot
-                du directeur</a>
-            </li>
-            <li>
-              <a href="./a-propos.html"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Histoire</a>
-            </li>
-            <li>
-              <a href="./administration.html"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Admission</a>
-            </li>
-            <li>
-              <a href="./administration.html"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Administration</a>
-            </li>
-          </ul>
-        </div>
-      </li>
-
-      <li>
-        <button id="dropdownHoverButton2" data-dropdown-toggle="dropdownHover2" data-dropdown-trigger="hover"
-          class="text-white focus:ring-4 focus:outline-none focus:ring-blue-300 px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          type="button">Formations<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <span class="sr-only">Previous</span>
+        </span>
+      </button>
+      <button type="button"
+        class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        data-carousel-next>
+        <span
+          class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="m1 1 4 4 4-4" />
+              d="m1 9 4-4-4-4" />
           </svg>
-        </button>
-
-        <!-- Dropdown menu -->
-        <div id="dropdownHover2"
-          class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-          <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton2">
-            <li>
-              <a href="licence.html"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Licence professionnelle</a>
-            </li>
-            <li>
-              <a href="master.html"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Master professionnel</a>
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li><a href="./actualités.html" class=" py-1 px-3 rounded-sm transition duration-200">Actualités</a>
-      </li>
-      <li><a href="#" class=" py-1 px-3 rounded-sm transition duration-200">Espace etudiants</a></li>
-      <li><a href="#" class=" py-1 px-3 rounded-sm transition duration-200">Alumni</a></li>
-    </ul>
-    <button class="bg-blue h-10 py-1 text-white px-4 rounded-full"><a href="contacter-nous.html"></a>Nous
-      contacter</button>
-  </nav>
-  <div class="m-auto text-center flex flex-col justify-between items-center gap-6 mt-32">
-    <h1 class="text-white text-4xl text-center w-96 m-auto animate-flip-up font-belanosima">Bienvenue à
-      l'Institut
-      Universitaire de
-      Technologie de Parakou</h1>
-    <p class="max-w-500">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit.mus laboriosam iusto ipsam libero sit velit
-      cumque
-      delectus facere fugiat ipsam ad
-      asperiores.
-    </p>
-    <div class="flex gap-10 justify-between items-center">
-      <button
-        class="min-w-40 bg-blue h-10 py-1 text-white px-4 rounded-full hover:bg-transparent hover:border scale-100 transition-all duration-100">Commencer</button>
-      <button
-        class="min-w-40 bg-blue h-10 py-1 text-white px-4 rounded-full hover:bg-transparent hover:border scale-100 transition-all duration-100">Lire
-        plus</button>
+          <span class="sr-only">Next</span>
+        </span>
+      </button>
     </div>
-  </div>
-</div>
 
-</section>
+    <div class="h-[600px] bg-opacity-45 text-white bg-black absolute top-0 left-0 right-0 z-50">
+      <nav class=" flex justify-between items-center py-1 px-10">
+        <img src="../assets/logo_iut.png" width="100px" height="70px" alt="">
+        <ul class="flex justify-between items-center text-white p-5">
+          <li><a href="index.html" class=" py-1 px-3 rounded-sm transition duration-200">Accueil</a></li>
+          <li>
+            <button id="dropdownHoverButton1" data-dropdown-toggle="dropdownHover1" data-dropdown-trigger="hover"
+              class="text-white focus:ring-4 focus:outline-none focus:ring-blue-300 px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              type="button">Gouvernance<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="m1 1 4 4 4-4" />
+              </svg>
+            </button>
+
+            <!-- Dropdown menu -->
+            <div id="dropdownHover1"
+              class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton1">
+                <li>
+                  <a href="./a-propos.html"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mot
+                    du directeur</a>
+                </li>
+                <li>
+                  <a href="./a-propos.html"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Histoire</a>
+                </li>
+                <li>
+                  <a href="./administration.html"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Admission</a>
+                </li>
+                <li>
+                  <a href="./administration.html"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Administration</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <button id="dropdownHoverButton2" data-dropdown-toggle="dropdownHover2" data-dropdown-trigger="hover"
+              class="text-white focus:ring-4 focus:outline-none focus:ring-blue-300 px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              type="button">Formations<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="m1 1 4 4 4-4" />
+              </svg>
+            </button>
+
+            <!-- Dropdown menu -->
+            <div id="dropdownHover2"
+              class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton2">
+                <li>
+                  <a href="licence.html"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Licence
+                    professionnelle</a>
+                </li>
+                <li>
+                  <a href="master.html"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Master
+                    professionnel</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="./actualités.html" class=" py-1 px-3 rounded-sm transition duration-200">Actualités</a>
+          </li>
+          <li><a href="#" class=" py-1 px-3 rounded-sm transition duration-200">Espace etudiants</a></li>
+          <li><a href="#" class=" py-1 px-3 rounded-sm transition duration-200">Alumni</a></li>
+        </ul>
+        <button class="bg-blue h-10 py-1 text-white px-4 rounded-full"><a href="contacter-nous.html"></a>Nous
+          contacter</button>
+      </nav>
+      <div class="m-auto text-center flex flex-col justify-between items-center gap-6 mt-32">
+        <h1 class="text-white text-4xl text-center w-96 m-auto animate-flip-up font-belanosima">Bienvenue à
+          l'Institut
+          Universitaire de
+          Technologie de Parakou</h1>
+        <p class="max-w-500">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.mus laboriosam iusto ipsam libero sit velit
+          cumque
+          delectus facere fugiat ipsam ad
+          asperiores.
+        </p>
+        <div class="flex gap-10 justify-between items-center">
+          <button
+            class="min-w-40 bg-blue h-10 py-1 text-white px-4 rounded-full hover:bg-transparent hover:border scale-100 transition-all duration-100">Commencer</button>
+          <button
+            class="min-w-40 bg-blue h-10 py-1 text-white px-4 rounded-full hover:bg-transparent hover:border scale-100 transition-all duration-100">Lire
+            plus</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
 
 
 
@@ -198,7 +216,8 @@
           <p>Cours</p>
         </div>
       </div>
-      <div class="flex flex-col bg-white py-4 rounded-xl justify-center items-center max-w-40 h-28 absolute left-80 top-24 w-40 h-24">
+      <div
+        class="flex flex-col bg-white py-4 rounded-xl justify-center items-center max-w-40 h-28 absolute left-80 top-24 w-40 h-24">
         <p class="text-blue text-4xl font-bold">+1K</p>
         <p>Etudiants</p>
       </div>
@@ -261,8 +280,9 @@
 
   <!-- section admission -->
   <section class="max-w-screen-2xl md:py-10 py-5 m-auto lg:px-40 md:px-10 px-5">
-    <h2 class="text-blue text-3xl font-belanosima font-normal max-w-500 m-auto mb-10 text-center">Processus d'admission des étudiants</h2>
- 
+    <h2 class="text-blue text-3xl font-belanosima font-normal max-w-500 m-auto mb-10 text-center">Processus d'admission
+      des étudiants</h2>
+
     <div class="flex items-center gap-5 justify-center px-20">
       <div class="bg-[url('/assets/decanat-1.jpg')] h-72 lg:w-96 w-80 bg-center bg-cover rounded-xl">
       </div>
@@ -283,18 +303,21 @@
           <i class="fa-solid fa-square-check text-blue text-2xl"></i>
           <p>Un engagement parental pour le paiement des frais de formation qui s'elèvent à 415000F.</p>
         </div>
-        <button class="min-w-40 bg-blue font-normal h-10 py-1 text-white px-4 rounded-full hover:bg-transparent hover:border scale-100 transition-all duration-100">Lire plus de détails</button>
-      
+        <button
+          class="min-w-40 bg-blue font-normal h-10 py-1 text-white px-4 rounded-full hover:bg-transparent hover:border scale-100 transition-all duration-100">Lire
+          plus de détails</button>
+
       </div>
-    
-       
+
+
     </div>
   </section>
 
 
   <!-- Testiomonial -->
   <section class="md:my-10 my-5 m-auto">
-    <h2 class="text-blue text-3xl font-belanosima font-normal max-w-500 m-auto mb-10 text-center">Ce que disent nos étudiants de
+    <h2 class="text-blue text-3xl font-belanosima font-normal max-w-500 m-auto mb-10 text-center">Ce que disent nos
+      étudiants de
       nous</h2>
     <div class="h-full w-full bg-[url('../assets/1715084700522.jpg')]  bg-center bg-cover">
       <div class="h-full bg-opacity-60 text-white relative bg-blue py-10 lg:px-72 md:px-20 px-10">
@@ -441,16 +464,16 @@
             voir</a></button>
       </div>
     </div>
-
     <div class="flex justify-center gap-4 flex-wrap">
+       
       <div class="relative w-64 h-96 bg-white text-white rounded-3xl">
-        <p class="text-sm absolute bg- z-30 p-1 right-2 top-2 rounded-xl">12 Aout 2023</p>
-        <div class="bg-[url('../assets/1715084700522.jpg')] absolute z-0 top-0 left-0 h-72 w-32 rounded-3xl">
-        </div>
-        <div class="bg-[url('../assets/1715084700522.jpg')] rounded-3xl w-full h-1/2 absolute z-20 top-0 left-0 ">
+        <p class="text-sm absolute bg- z-30 p-1 right-2 top-2 rounded-xl bg-blue">12 Aout 2023</p>
+
+        <div
+          class="bg-[url('../assets/img.jpg')] rounded-3xl w-full h-3/4 absolute z-20 top-0 left-0 bg-cover bg-center">
         </div>
         <div
-          class="bg-white h-1/2 absolute z-20 bottom-0 left-0 rounded-3xl flex flex-col gap-2 justify-between px-4 py-2">
+          class="bg-white h-1/2 absolute z-20 bottom-0 left-0 rounded-b-3xl rounded-tl-3xl flex flex-col gap-2 justify-between px-4 py-2">
           <h3 class="text-xl  text-blue">
             Nouvelle actualité: lorem ipsum
           </h3>
@@ -461,18 +484,18 @@
               </div>
               <span class="font-bold text-black">John Doe</span>
             </div>
-            <p class="text-blue">Lire plus</p>
+            <p class="text-blue"><a href="">Lire plus</a></p>
           </div>
         </div>
       </div>
       <div class="relative w-64 h-96 bg-white text-white rounded-3xl">
-        <p class="text-sm absolute bg- z-30 p-1 right-2 top-2 rounded-xl">12 Aout 2023</p>
-        <div class="bg-[url('../assets/1715084700522.jpg')] absolute z-0 top-0 left-0 h-72 w-32 rounded-3xl">
-        </div>
-        <div class="bg-[url('../assets/1715084700522.jpg')] rounded-3xl w-full h-1/2 absolute z-20 top-0 left-0 ">
+        <p class="text-sm absolute bg- z-30 p-1 right-2 top-2 rounded-xl bg-blue">12 Aout 2023</p>
+
+        <div
+          class="bg-[url('../assets/img.jpg')] rounded-3xl w-full h-3/4 absolute z-20 top-0 left-0 bg-cover bg-center">
         </div>
         <div
-          class="bg-white h-1/2 absolute z-20 bottom-0 left-0 rounded-3xl flex flex-col gap-2 justify-between px-4 py-2">
+          class="bg-white h-1/2 absolute z-20 bottom-0 left-0 rounded-b-3xl rounded-tl-3xl flex flex-col gap-2 justify-between px-4 py-2">
           <h3 class="text-xl  text-blue">
             Nouvelle actualité: lorem ipsum
           </h3>
@@ -483,18 +506,18 @@
               </div>
               <span class="font-bold text-black">John Doe</span>
             </div>
-            <p class="text-blue">Lire plus</p>
+            <p class="text-blue"><a href="">Lire plus</a></p>
           </div>
         </div>
       </div>
       <div class="relative w-64 h-96 bg-white text-white rounded-3xl">
-        <p class="text-sm absolute bg- z-30 p-1 right-2 top-2 rounded-xl">12 Aout 2023</p>
-        <div class="bg-[url('../assets/1715084700522.jpg')] absolute z-0 top-0 left-0 h-72 w-32 rounded-3xl">
-        </div>
-        <div class="bg-[url('../assets/1715084700522.jpg')] rounded-3xl w-full h-1/2 absolute z-20 top-0 left-0 ">
+        <p class="text-sm absolute bg- z-30 p-1 right-2 top-2 rounded-xl bg-blue">12 Aout 2023</p>
+
+        <div
+          class="bg-[url('../assets/img.jpg')] rounded-3xl w-full h-3/4 absolute z-20 top-0 left-0 bg-cover bg-center">
         </div>
         <div
-          class="bg-white h-1/2 absolute z-20 bottom-0 left-0 rounded-3xl flex flex-col gap-2 justify-between px-4 py-2">
+          class="bg-white h-1/2 absolute z-20 bottom-0 left-0 rounded-b-3xl rounded-tl-3xl flex flex-col gap-2 justify-between px-4 py-2">
           <h3 class="text-xl  text-blue">
             Nouvelle actualité: lorem ipsum
           </h3>
@@ -505,18 +528,18 @@
               </div>
               <span class="font-bold text-black">John Doe</span>
             </div>
-            <p class="text-blue">Lire plus</p>
+            <p class="text-blue"><a href="">Lire plus</a></p>
           </div>
         </div>
       </div>
       <div class="relative w-64 h-96 bg-white text-white rounded-3xl">
-        <p class="text-sm absolute bg- z-30 p-1 right-2 top-2 rounded-xl">12 Aout 2023</p>
-        <div class="bg-[url('../assets/1715084700522.jpg')] absolute z-0 top-0 left-0 h-72 w-32 rounded-3xl">
-        </div>
-        <div class="bg-[url('../assets/1715084700522.jpg')] rounded-3xl w-full h-1/2 absolute z-20 top-0 left-0 ">
+        <p class="text-sm absolute bg- z-30 p-1 right-2 top-2 rounded-xl bg-blue">12 Aout 2023</p>
+
+        <div
+          class="bg-[url('../assets/img.jpg')] rounded-3xl w-full h-3/4 absolute z-20 top-0 left-0 bg-cover bg-center">
         </div>
         <div
-          class="bg-white h-1/2 absolute z-20 bottom-0 left-0 rounded-3xl flex flex-col gap-2 justify-between px-4 py-2">
+          class="bg-white h-1/2 absolute z-20 bottom-0 left-0 rounded-b-3xl rounded-tl-3xl flex flex-col gap-2 justify-between px-4 py-2">
           <h3 class="text-xl  text-blue">
             Nouvelle actualité: lorem ipsum
           </h3>
@@ -527,10 +550,12 @@
               </div>
               <span class="font-bold text-black">John Doe</span>
             </div>
-            <p class="text-blue">Lire plus</p>
+            <p class="text-blue"><a href="">Lire plus</a></p>
           </div>
         </div>
       </div>
+      
+    </div>
     </div>
   </section>
   <footer class="md:py-20 py-10 m-auto relative  bg-blue text-white">

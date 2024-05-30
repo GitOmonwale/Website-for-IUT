@@ -7,9 +7,7 @@ backgroundImage:{
   'hero': "url('/assets/accueil.jpg')",
   'decanat-1': "url('/assets/decanat-1.jpg')",
   'decanat-2': "url('/assets/decanat-2.jpg')"
-  // 'hero': "url('/assets/hero-partten.svg')",
-  // 'hero': "url('/assets/hero-partten.svg')",
-  // 'hero': "url('/assets/hero-partten.svg')",
+ 
 },
       colors: {
         'blue': '#0540f2',
@@ -29,8 +27,9 @@ backgroundImage:{
         '500':'500px',
       },
       fontFamily: {
+        alex:['"Alex Brush"', 'sans-serif'],
         belanosima: ['Belanosima', 'sans-serif'],
-        poppins:['Poppins', 'sans-serif']
+        poppins:['Poppins', 'sans-serif'],
       },
     },
   },
